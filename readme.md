@@ -79,3 +79,12 @@ Pipe commands are "combinator" commands. They are used for writing notation whic
 
 * **||**: represents 撮, for optimal spacing do not put a space between the two encompassed blocks
 * **|f**: represents 反撮.
+
+
+## Attributions
+
+Noto Sans SC is the base font, and is licensed under the [SIL Open Font License](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL) and this is also licensed accordingly. The base font is also in this repository (for convenience). 
+
+>  You can use them freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own.
+
+> This isn't legal advice, please consider consulting a lawyer and see the full license for all details. 
