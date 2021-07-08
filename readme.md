@@ -31,13 +31,30 @@ Backslash commands refers to "body" blocks. Typing \\1 will render 一, up to \\
 * **\\1d**: d stands for 打 (**d**a)
 * **\\1b**: b stands for 擘 (**b**o)
 * **\\1i**: i stands for 剔 (t**i**)
-* **\\mt**: mt stands for 抹挑 (**m**o **t**iao)
+* **\\1mt**: mt stands for 抹挑 (**m**o **t**iao)
+* **\\1mg**: mg stands for 抹勾 (**m**o **g**ou)
+* **\\1gi**: gi stands for 勾剔 (**g**ou t**i**)
 
 Other \\ commands are:
 
 * **\\fan** (起) and **\\fanz** (止): indicates the beginning and end of 泛音 respectively
 * **\\tao**: represents 搯
 * **\\dai**: represents 带起
+* **\\jin**: represents 进
+* **\\tui**: represents 退
+* **\\fu**: represents 复
+* **\\zhu**: represents 撞
+* **\\yin**: represents 吟
+* **\\nao**: representts 猱
+* **\\tan**: represents 淌
+* **\\tuo**: represents 拖
+* **\\dou**: represents 逗
+
+### - (Dash)
+
+Dash commands are used to represent slides. These are always typed the following way:
+
+1. Todo.
 
 ### / (Forwardslash)
 
