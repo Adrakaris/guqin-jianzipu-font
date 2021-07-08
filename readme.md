@@ -54,7 +54,17 @@ Other \\ commands are:
 
 Dash commands are used to represent slides. These are always typed the following way:
 
-1. Todo.
+First, type either **-s** for 上 or **-x** for 下. 
+
+*If you need a whole number hui* type a dash (**-**) followed by that number. You are done.
+
+*If you need a fractional hui* first for the whole type **-z** (中) followed by that number. Then for the fraction type a dash (**-**) followed by that fraction.
+
+`-s-7` means 上七徽. `-x-z10-8` means 下十徽八分.
+
+*Note:* **-b** represents 半, **-w** represents 外, and both only appear in the bottom position. However, -5 is also valid for 半 and will display the character for 5 instead. 外 should not be used with any other modifier.
+
+The middle numbers range from 1 to 13, the bottom numbers range from 1 to 9.
 
 ### / (Forwardslash)
 
