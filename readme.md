@@ -38,6 +38,7 @@ Backslash commands refers to "body" blocks. Typing \\1 will render 一, up to \\
 Other \\ commands are:
 
 * **\\fan** (起) and **\\fanz** (止): indicates the beginning and end of 泛音 respectively
+* **\\li**: represents 历*
 * **\\tao**: represents 搯
 * **\\dai**: represents 带起
 * **\\jin**: represents 进
@@ -49,6 +50,8 @@ Other \\ commands are:
 * **\\tan**: represents 淌
 * **\\tuo**: represents 拖
 * **\\dou**: represents 逗
+
+\*For 历, to insert string numbers into it, use the same system as for 上 and 下 - the first number is prefixed with a -z and the second with just a -. `\li/s-7-6` would mean 散音历七六弦.
 
 ### - (Dash)
 
