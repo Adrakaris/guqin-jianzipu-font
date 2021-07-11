@@ -50,8 +50,13 @@ Other \\ commands are:
 * **\\tan**: represents 淌
 * **\\tuo**: represents 拖
 * **\\dou**: represents 逗
+* **\\sr1**: represents 散X如一**
+* **\\|f**: represents 反撮 - solitary instead of combinator character and smaller
+* **\\tc3s**: represents that weird 搯撮三声, should you need it.
 
 \*For 历, to insert string numbers into it, use the same system as for 上 and 下 - the first number is prefixed with a -z and the second with just a -. `\li/s-7-6` would mean 散音历七六弦.
+
+\*\* The X is a string number, and done using a **-z** nuber. `\sr1-z3` is 散三如一.
 
 ### - (Dash)
 
