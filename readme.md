@@ -6,7 +6,7 @@ This is a font for writing Jianzipu for the Guqin, based off Noto Sans SC.
 
 We use ligatures to be able to type Jianzipu notation - these will be referred to as commands.
 
-Only the ones included are shown.
+Only the ones included are shown. [Check the blog post for my thought process](https://yijun.hu/blog-misc/guqin/)
 
 ## Overview of Use
 
