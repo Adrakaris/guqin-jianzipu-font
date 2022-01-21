@@ -4,7 +4,7 @@ FullName: Noto Qin Jianzipu
 FamilyName: Noto Qin Jianzipu
 Weight: Book
 Copyright: (c) 2014-2020 Adobe (http://www.adobe.com/). \n(c) Yijun Hu (https://yijun.hu) 
-Version: 1.1.2
+Version: 2.0
 ItalicAngle: 0
 UnderlinePosition: -119
 UnderlineWidth: 35
@@ -22,7 +22,7 @@ OS2Version: 2
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1626014431
-ModificationTime: 1642798740
+ModificationTime: 1642803471
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -61,6 +61,7 @@ Lookup: 4 0 0 "Ligature Substitution lookup 0" { "Ligature Substitution lookup 0
 Lookup: 6 0 0 "'clig' Contextual Ligatures lookup 1" { "'clig' Contextual Ligatures lookup 1 subtable"  } ['clig' ('DFLT' <'dflt' > ) ]
 Lookup: 4 0 0 "'clig' Contextual Ligatures lookup 2" { "'clig' Contextual Ligatures lookup 2 subtable"  } ['clig' ('DFLT' <'dflt' > ) ]
 Lookup: 258 0 0 "'kern' Horizontal Kerning lookup 0" { "'kern' Horizontal Kerning lookup 0 subtable"  } [' RQD' ('DFLT' <'dflt' > ) 'kern' ('DFLT' <'dflt' > ) ]
+MarkAttachClasses: 1
 DEI: 91125
 ChainSub2: coverage "'clig' Contextual Ligatures lookup 1 subtable" 0 0 0 1
  2 0 0
@@ -87,7 +88,7 @@ ShortTable: maxp 16
   0
   0
 EndShort
-LangName: 1033 "+AKkA 2014-2020 Adobe (http://www.adobe.com/). +AAoAqQAA Yijun Hu (https://yijun.hu) " "" "Regular" "NotoSansSC-Regular-Qin" "" "Version 1.1.2" "" "Noto is a trademark of Google Inc." "" "Yijun Hu | Noto: Ryoko NISHIZUKA " "Font based off Noto Sans SC for Guqin Jianzipu ligatures+AAoACgAA-Base font attribution: Dr. Ken Lunde (project architect, glyph set definition & overall production); Masataka HATTORI +Zw0A" "" "http://yijun.hu/" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an +ACIA-AS IS+ACIA BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." "http://scripts.sil.org/OFL"
+LangName: 1033 "+AKkA Yijun Hu (https://yijun.hu) +AAoAqQAA 2014-2020 Adobe (http://www.adobe.com/). " "" "Regular" "NotoSansSC-Regular-Qin" "" "Version 1.1.2" "" "Noto is a trademark of Google Inc." "" "Yijun Hu | Noto: Ryoko NISHIZUKA " "Font based off Noto Sans SC for Guqin Jianzipu ligatures+AAoACgAA-Base font attribution: Dr. Ken Lunde (project architect, glyph set definition & overall production); Masataka HATTORI +Zw0A" "" "http://yijun.hu/" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an +ACIA-AS IS+ACIA BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." "http://scripts.sil.org/OFL"
 GaspTable: 1 65535 2 0
 Encoding: UnicodeFull
 UnicodeInterp: none
@@ -96,7 +97,9 @@ DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
 WinInfo: 1114047 27 10
-BeginChars: 1114297 374
+BeginPrivate: 0
+EndPrivate
+BeginChars: 1114297 387
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -18163,7 +18166,7 @@ SplineSet
  -53 561 -53 561 -53 585 c 1,8,9
  -145 585 -145 585 -423 585 c 1,0,1
 EndSplineSet
-Ligature2: "Ligature Substitution lookup 0 subtable" slash one
+Ligature2: "'clig' Contextual Ligatures lookup 2 subtable" slash one
 LCarets2: 1 0
 EndChar
 
@@ -18215,7 +18218,7 @@ SplineSet
  -39 516 -39 516 -39 543 c 1,14,15
  -145 543 -145 543 -463 543 c 1,8,9
 EndSplineSet
-Ligature2: "Ligature Substitution lookup 0 subtable" slash two
+Ligature2: "'clig' Contextual Ligatures lookup 2 subtable" slash two
 LCarets2: 1 0
 EndChar
 
@@ -18269,7 +18272,7 @@ SplineSet
  -45 501 -45 501 -45 527 c 1,22,23
  -151 527 -151 527 -469 527 c 1,16,17
 EndSplineSet
-Ligature2: "Ligature Substitution lookup 0 subtable" slash three
+Ligature2: "'clig' Contextual Ligatures lookup 2 subtable" slash three
 LCarets2: 2 0 0
 EndChar
 
@@ -18317,8 +18320,8 @@ SplineSet
  -54 521 -54 521 -54 656 c 1,66,67
  -154 656 -154 656 -457 656 c 1,52,53
 EndSplineSet
+Ligature2: "'clig' Contextual Ligatures lookup 2 subtable" slash four
 LCarets2: 1 0
-Ligature2: "Ligature Substitution lookup 0 subtable" slash four
 EndChar
 
 StartChar: sl5
@@ -18391,8 +18394,8 @@ SplineSet
  -50 500 -50 500 -49 520 c 5,58,59
  -72 520 -72 520 -139 520 c 5,12,13
 EndSplineSet
+Ligature2: "'clig' Contextual Ligatures lookup 2 subtable" slash five
 LCarets2: 1 0
-Ligature2: "Ligature Substitution lookup 0 subtable" slash five
 EndChar
 
 StartChar: sl6
@@ -18430,8 +18433,8 @@ SplineSet
  -247 658 -247 658 -259 668 c 1,44,45
  -270 666 -270 666 -293 663 c 1,34,35
 EndSplineSet
+Ligature2: "'clig' Contextual Ligatures lookup 2 subtable" slash six
 LCarets2: 1 0
-Ligature2: "Ligature Substitution lookup 0 subtable" slash six
 EndChar
 
 StartChar: sl7
@@ -18484,7 +18487,7 @@ SplineSet
  -140 526 -140 526 -163 526 c 0,44,45
  -197 526 -197 526 -266 526 c 0,0,1
 EndSplineSet
-Ligature2: "Ligature Substitution lookup 0 subtable" slash seven
+Ligature2: "'clig' Contextual Ligatures lookup 2 subtable" slash seven
 LCarets2: 1 0
 EndChar
 
@@ -18516,8 +18519,8 @@ SplineSet
  -146 597 -146 597 -154 626 c 0,34,35
  -162 656 -162 656 -162 663 c 1,14,15
 EndSplineSet
+Ligature2: "'clig' Contextual Ligatures lookup 2 subtable" slash eight
 LCarets2: 1 0
-Ligature2: "Ligature Substitution lookup 0 subtable" slash eight
 EndChar
 
 StartChar: sl9
@@ -18561,8 +18564,8 @@ SplineSet
  -68 534 -68 534 -78 534 c 0,62,63
  -94 534 -94 534 -124 534 c 0,0,1
 EndSplineSet
+Ligature2: "'clig' Contextual Ligatures lookup 2 subtable" slash nine
 LCarets2: 1 0
-Ligature2: "Ligature Substitution lookup 0 subtable" slash nine
 EndChar
 
 StartChar: sl10
@@ -18609,8 +18612,8 @@ SplineSet
  -177 566 -177 566 -51 566 c 5,22,23
  -51 573 -51 573 -51 593 c 5,0,1
 EndSplineSet
+Ligature2: "'clig' Contextual Ligatures lookup 2 subtable" slash one zero
 LCarets2: 2 0 0
-Ligature2: "Ligature Substitution lookup 0 subtable" slash one zero
 EndChar
 
 StartChar: sl11
@@ -18657,8 +18660,8 @@ SplineSet
  -77 527 -77 527 -77 551 c 1,30,31
  -107 551 -107 551 -196 551 c 1,24,25
 EndSplineSet
+Ligature2: "'clig' Contextual Ligatures lookup 2 subtable" slash one one
 LCarets2: 2 0 0
-Ligature2: "Ligature Substitution lookup 0 subtable" slash one one
 EndChar
 
 StartChar: sl12
@@ -18711,14 +18714,14 @@ SplineSet
  -72 515 -72 515 -72 539 c 1,38,39
  -102 539 -102 539 -191 539 c 1,32,33
 EndSplineSet
+Ligature2: "'clig' Contextual Ligatures lookup 2 subtable" slash one two
 LCarets2: 2 0 0
-Ligature2: "Ligature Substitution lookup 0 subtable" slash one two
 EndChar
 
 StartChar: sl13
 Encoding: 1114282 -1 372
 Width: 3
-Flags: WO
+Flags: W
 LayerCount: 2
 Back
 SplineSet
@@ -18771,8 +18774,8 @@ SplineSet
  -70 505 -70 505 -70 530 c 5,46,47
  -100 530 -100 530 -190 530 c 5,40,41
 EndSplineSet
+Ligature2: "'clig' Contextual Ligatures lookup 2 subtable" slash one three
 LCarets2: 2 0 0
-Ligature2: "Ligature Substitution lookup 0 subtable" slash one three
 EndChar
 
 StartChar: slban
@@ -18804,8 +18807,630 @@ SplineSet
  -192 557 -192 557 -67 558 c 1,38,39
  -67 566 -67 566 -67 588 c 1,0,1
 EndSplineSet
+Ligature2: "'clig' Contextual Ligatures lookup 2 subtable" slash b
 LCarets2: 1 0
-Ligature2: "Ligature Substitution lookup 0 subtable" slash b
+EndChar
+
+StartChar: ^1
+Encoding: 1114286 -1 374
+Width: 3
+Flags: W
+LayerCount: 2
+Back
+SplineSet
+-164 750 m 5,0,1
+ -166 734 -166 734 -168 723 c 4,2,3
+ -170 713 -170 713 -174 695 c 5,4,5
+ -215 695 -215 695 -298 695 c 5,6,7
+ -291 711 -291 711 -286 720 c 4,8,9
+ -282 729 -282 729 -275 750 c 5,10,11
+ -238 750 -238 750 -164 750 c 5,0,1
+-139 695 m 5,12,13
+ -134 717 -134 717 -130 737 c 4,14,15
+ -127 757 -127 757 -124 775 c 5,16,17
+ -133 776 -133 776 -150 777 c 4,18,19
+ -151 776 -151 776 -155 776 c 4,20,21
+ -183 776 -183 776 -267 776 c 5,22,23
+ -263 788 -263 788 -260 795 c 260,24,25
+ -257 802 -257 802 -254 814 c 5,26,27
+ -197 814 -197 814 -83 814 c 5,28,29
+ -83 821 -83 821 -82 841 c 5,30,31
+ -165 841 -165 841 -415 841 c 5,32,33
+ -415 834 -415 834 -416 814 c 5,34,35
+ -384 814 -384 814 -289 814 c 5,36,37
+ -292 802 -292 802 -295 795 c 260,38,39
+ -298 788 -298 788 -302 776 c 5,40,41
+ -332 776 -332 776 -390 776 c 5,42,43
+ -391 769 -391 769 -393 750 c 5,44,45
+ -372 750 -372 750 -310 750 c 5,46,47
+ -317 729 -317 729 -322 720 c 260,48,49
+ -327 711 -327 711 -334 695 c 5,50,51
+ -370 695 -370 695 -442 695 c 5,52,53
+ -442 689 -442 689 -443 669 c 5,54,55
+ -345 669 -345 669 -50 669 c 5,56,57
+ -50 675 -50 675 -49 695 c 5,58,59
+ -72 695 -72 695 -139 695 c 5,12,13
+-452 617 m 5,60,61
+ -452 610 -452 610 -453 590 c 5,62,63
+ -352 590 -352 590 -50 590 c 5,64,65
+ -50 597 -50 597 -49 617 c 5,66,67
+ -150 617 -150 617 -452 617 c 5,60,61
+-338 579 m 5,68,69
+ -361 557 -361 557 -393 536 c 4,70,71
+ -425 514 -425 514 -458 500 c 5,72,73
+ -451 498 -451 498 -436 495 c 4,74,75
+ -422 491 -422 491 -416 489 c 5,76,77
+ -384 505 -384 505 -351 528 c 4,78,79
+ -317 551 -317 551 -292 574 c 5,80,81
+ -308 575 -308 575 -338 579 c 5,68,69
+-216 575 m 5,82,83
+ -184 555 -184 555 -149 531 c 4,84,85
+ -113 507 -113 507 -94 492 c 5,86,87
+ -78 494 -78 494 -47 499 c 5,88,89
+ -67 514 -67 514 -104 538 c 4,90,91
+ -140 561 -140 561 -172 580 c 5,92,93
+ -187 579 -187 579 -216 575 c 5,82,83
+-293 663 m 5,94,95
+ -282 653 -282 653 -270 641 c 260,96,97
+ -258 629 -258 629 -251 621 c 5,98,99
+ -239 623 -239 623 -215 627 c 5,100,101
+ -222 635 -222 635 -234 646 c 4,102,103
+ -247 658 -247 658 -259 668 c 5,104,105
+ -270 666 -270 666 -293 663 c 5,94,95
+EndSplineSet
+Fore
+SplineSet
+-422 774 m 1,0,1
+ -422 766 -422 766 -422 742 c 1,2,3
+ -353 742 -353 742 -147 742 c 0,4,5
+ -123 742 -123 742 -52 742 c 1,6,7
+ -52 750 -52 750 -52 774 c 1,8,9
+ -144 774 -144 774 -422 774 c 1,0,1
+EndSplineSet
+Ligature2: "'clig' Contextual Ligatures lookup 2 subtable" asciicircum one
+LCarets2: 1 0
+EndChar
+
+StartChar: ^3
+Encoding: 1114286 -1 375
+Width: 3
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+-444 861 m 1,0,1
+ -444 852 -444 852 -444 825 c 1,2,3
+ -351 825 -351 825 -74 825 c 1,4,5
+ -74 834 -74 834 -74 861 c 1,6,7
+ -167 861 -167 861 -444 861 c 1,0,1
+-403 785 m 1,8,9
+ -403 776 -403 776 -403 749 c 1,10,11
+ -328 749 -328 749 -103 749 c 1,12,13
+ -103 758 -103 758 -103 785 c 1,14,15
+ -178 785 -178 785 -403 785 c 1,8,9
+-469 709 m 1,16,17
+ -469 700 -469 700 -469 674 c 1,18,19
+ -363 674 -363 674 -45 674 c 1,20,21
+ -45 682 -45 682 -45 709 c 1,22,23
+ -151 709 -151 709 -469 709 c 1,16,17
+EndSplineSet
+Ligature2: "'clig' Contextual Ligatures lookup 2 subtable" asciicircum three
+LCarets2: 1 0
+EndChar
+
+StartChar: ^4
+Encoding: 1114287 -1 376
+Width: 3
+Flags: W
+LayerCount: 2
+Back
+SplineSet
+-221 744 m 5,0,1
+ -189 722 -189 722 -153 696 c 260,2,3
+ -117 670 -117 670 -99 653 c 5,4,5
+ -83 656 -83 656 -52 661 c 5,6,7
+ -72 678 -72 678 -108 703 c 4,8,9
+ -145 729 -145 729 -177 750 c 5,10,11
+ -192 748 -192 748 -221 744 c 5,0,1
+-343 748 m 5,12,13
+ -365 724 -365 724 -398 701 c 4,14,15
+ -430 678 -430 678 -463 662 c 5,16,17
+ -456 660 -456 660 -441 657 c 4,18,19
+ -426 653 -426 653 -420 651 c 5,20,21
+ -389 668 -389 668 -355 693 c 4,22,23
+ -322 717 -322 717 -297 742 c 5,24,25
+ -312 744 -312 744 -343 748 c 5,12,13
+-457 786 m 5,26,27
+ -457 779 -457 779 -458 759 c 5,28,29
+ -357 759 -357 759 -55 759 c 5,30,31
+ -55 766 -55 766 -54 786 c 5,32,33
+ -155 786 -155 786 -457 786 c 5,26,27
+-298 832 m 5,34,35
+ -287 822 -287 822 -275 810 c 4,36,37
+ -262 798 -262 798 -256 790 c 5,38,39
+ -244 792 -244 792 -219 796 c 5,40,41
+ -226 804 -226 804 -239 816 c 4,42,43
+ -252 827 -252 827 -264 837 c 5,44,45
+ -275 835 -275 835 -298 832 c 5,34,35
+EndSplineSet
+Fore
+SplineSet
+-420 696 m 5,0,1
+ -420 724 -420 724 -420 808 c 5,2,3
+ -397 808 -397 808 -327 808 c 5,4,5
+ -329 767 -329 767 -343 749 c 4,6,7
+ -358 731 -358 731 -414 719 c 5,8,9
+ -408 716 -408 716 -402 712 c 4,10,11
+ -395 708 -395 708 -392 705 c 4,12,13
+ -328 720 -328 720 -311 741 c 4,14,15
+ -293 762 -293 762 -291 808 c 5,16,17
+ -268 808 -268 808 -223 808 c 5,18,19
+ -223 793 -223 793 -223 748 c 4,20,21
+ -223 735 -223 735 -214 726 c 4,22,23
+ -206 718 -206 718 -180 718 c 4,24,25
+ -162 718 -162 718 -126 718 c 4,26,27
+ -117 718 -117 718 -109 718 c 260,28,29
+ -101 718 -101 718 -96 719 c 5,30,31
+ -97 722 -97 722 -98 729 c 4,32,33
+ -98 735 -98 735 -99 739 c 5,34,35
+ -104 738 -104 738 -112 738 c 4,36,37
+ -121 738 -121 738 -127 738 c 4,38,39
+ -143 738 -143 738 -176 738 c 4,40,41
+ -183 738 -183 738 -186 740 c 4,42,43
+ -188 742 -188 742 -188 748 c 4,44,45
+ -188 768 -188 768 -188 808 c 5,46,47
+ -164 808 -164 808 -91 808 c 5,48,49
+ -91 780 -91 780 -91 696 c 5,50,51
+ -173 696 -173 696 -420 696 c 5,0,1
+-457 836 m 5,52,53
+ -457 790 -457 790 -457 655 c 5,54,55
+ -448 655 -448 655 -420 655 c 5,56,57
+ -420 659 -420 659 -420 672 c 5,58,59
+ -338 672 -338 672 -91 672 c 5,60,61
+ -91 668 -91 668 -91 657 c 5,62,63
+ -82 657 -82 657 -54 657 c 5,64,65
+ -54 701 -54 701 -54 836 c 5,66,67
+ -154 836 -154 836 -457 836 c 5,52,53
+EndSplineSet
+Ligature2: "'clig' Contextual Ligatures lookup 2 subtable" asciicircum four
+LCarets2: 1 0
+EndChar
+
+StartChar: ^5
+Encoding: 1114288 -1 377
+Width: 3
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+-164 750 m 1,0,1
+ -166 734 -166 734 -168 723 c 0,2,3
+ -170 713 -170 713 -174 695 c 1,4,5
+ -215 695 -215 695 -298 695 c 1,6,7
+ -291 711 -291 711 -286 720 c 0,8,9
+ -282 729 -282 729 -275 750 c 1,10,11
+ -238 750 -238 750 -164 750 c 1,0,1
+-139 695 m 1,12,13
+ -134 717 -134 717 -130 737 c 0,14,15
+ -127 757 -127 757 -124 775 c 1,16,17
+ -133 776 -133 776 -150 777 c 0,18,19
+ -151 776 -151 776 -155 776 c 0,20,21
+ -183 776 -183 776 -267 776 c 1,22,23
+ -263 788 -263 788 -260 795 c 256,24,25
+ -257 802 -257 802 -254 814 c 1,26,27
+ -197 814 -197 814 -83 814 c 1,28,29
+ -83 821 -83 821 -82 841 c 1,30,31
+ -165 841 -165 841 -415 841 c 1,32,33
+ -415 834 -415 834 -416 814 c 1,34,35
+ -384 814 -384 814 -289 814 c 1,36,37
+ -292 802 -292 802 -295 795 c 256,38,39
+ -298 788 -298 788 -302 776 c 1,40,41
+ -332 776 -332 776 -390 776 c 1,42,43
+ -391 769 -391 769 -393 750 c 1,44,45
+ -372 750 -372 750 -310 750 c 1,46,47
+ -317 729 -317 729 -322 720 c 256,48,49
+ -327 711 -327 711 -334 695 c 1,50,51
+ -370 695 -370 695 -442 695 c 1,52,53
+ -442 689 -442 689 -443 669 c 1,54,55
+ -345 669 -345 669 -50 669 c 1,56,57
+ -50 675 -50 675 -49 695 c 1,58,59
+ -72 695 -72 695 -139 695 c 1,12,13
+EndSplineSet
+Ligature2: "'clig' Contextual Ligatures lookup 2 subtable" asciicircum five
+LCarets2: 1 0
+EndChar
+
+StartChar: ^6
+Encoding: 1114289 -1 378
+Width: 3
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+-221 744 m 1,0,1
+ -189 722 -189 722 -153 696 c 256,2,3
+ -117 670 -117 670 -99 653 c 1,4,5
+ -83 656 -83 656 -52 661 c 1,6,7
+ -72 678 -72 678 -108 703 c 0,8,9
+ -145 729 -145 729 -177 750 c 1,10,11
+ -192 748 -192 748 -221 744 c 1,0,1
+-343 748 m 1,12,13
+ -365 724 -365 724 -398 701 c 0,14,15
+ -430 678 -430 678 -463 662 c 1,16,17
+ -456 660 -456 660 -441 657 c 0,18,19
+ -426 653 -426 653 -420 651 c 1,20,21
+ -389 668 -389 668 -355 693 c 0,22,23
+ -322 717 -322 717 -297 742 c 1,24,25
+ -312 744 -312 744 -343 748 c 1,12,13
+-457 786 m 1,26,27
+ -457 779 -457 779 -458 759 c 1,28,29
+ -357 759 -357 759 -55 759 c 1,30,31
+ -55 766 -55 766 -54 786 c 1,32,33
+ -155 786 -155 786 -457 786 c 1,26,27
+-298 832 m 1,34,35
+ -287 822 -287 822 -275 810 c 0,36,37
+ -262 798 -262 798 -256 790 c 1,38,39
+ -244 792 -244 792 -219 796 c 1,40,41
+ -226 804 -226 804 -239 816 c 0,42,43
+ -252 827 -252 827 -264 837 c 1,44,45
+ -275 835 -275 835 -298 832 c 1,34,35
+EndSplineSet
+Ligature2: "'clig' Contextual Ligatures lookup 2 subtable" asciicircum six
+LCarets2: 1 0
+EndChar
+
+StartChar: ^7
+Encoding: 1114290 -1 379
+Width: 3
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+-266 726 m 0,0,1
+ -290 726 -290 726 -297 730 c 0,2,3
+ -305 733 -305 733 -305 745 c 0,4,5
+ -305 765 -305 765 -305 806 c 1,6,7
+ -248 811 -248 811 -77 826 c 1,8,9
+ -78 833 -78 833 -83 853 c 1,10,11
+ -139 847 -139 847 -305 832 c 1,12,13
+ -305 850 -305 850 -305 902 c 1,14,15
+ -316 902 -316 902 -351 902 c 1,16,17
+ -351 884 -351 884 -351 829 c 1,18,19
+ -384 826 -384 826 -480 818 c 1,20,21
+ -479 811 -479 811 -474 792 c 1,22,23
+ -443 794 -443 794 -351 802 c 1,24,25
+ -351 784 -351 784 -351 729 c 0,26,27
+ -351 707 -351 707 -335 700 c 0,28,29
+ -320 692 -320 692 -279 692 c 0,30,31
+ -240 692 -240 692 -162 692 c 0,32,33
+ -121 692 -121 692 -108 704 c 256,34,35
+ -95 716 -95 716 -90 746 c 1,36,37
+ -97 747 -97 747 -107 752 c 0,38,39
+ -118 757 -118 757 -124 759 c 1,40,41
+ -127 732 -127 732 -134 729 c 0,42,43
+ -140 726 -140 726 -163 726 c 0,44,45
+ -197 726 -197 726 -266 726 c 0,0,1
+EndSplineSet
+Ligature2: "'clig' Contextual Ligatures lookup 2 subtable" asciicircum seven
+LCarets2: 1 0
+EndChar
+
+StartChar: ^8
+Encoding: 1114291 -1 380
+Width: 3
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+-345 832 m 1,0,1
+ -352 790 -352 790 -377 746 c 256,2,3
+ -402 702 -402 702 -476 675 c 1,4,5
+ -471 673 -471 673 -455 670 c 0,6,7
+ -439 666 -439 666 -435 664 c 0,8,9
+ -355 692 -355 692 -333 739 c 0,10,11
+ -311 785 -311 785 -301 831 c 1,12,13
+ -315 831 -315 831 -345 832 c 1,0,1
+-173 837 m 1,14,15
+ -184 837 -184 837 -218 836 c 1,16,17
+ -217 832 -217 832 -215 820 c 0,18,19
+ -212 808 -212 808 -206 791 c 0,20,21
+ -194 761 -194 761 -162 724 c 256,22,23
+ -130 687 -130 687 -62 664 c 1,24,25
+ -56 667 -56 667 -44 670 c 0,26,27
+ -31 672 -31 672 -22 674 c 1,28,29
+ -89 696 -89 696 -121 732 c 0,30,31
+ -152 767 -152 767 -163 795 c 0,32,33
+ -169 811 -169 811 -171 822 c 256,34,35
+ -173 833 -173 833 -173 837 c 1,14,15
+EndSplineSet
+Ligature2: "'clig' Contextual Ligatures lookup 2 subtable" asciicircum eight
+LCarets2: 1 0
+EndChar
+
+StartChar: ^9
+Encoding: 1114292 -1 381
+Width: 3
+Flags: W
+LayerCount: 2
+Back
+SplineSet
+-266 726 m 4,0,1
+ -290 726 -290 726 -297 730 c 4,2,3
+ -305 733 -305 733 -305 745 c 4,4,5
+ -305 765 -305 765 -305 806 c 5,6,7
+ -248 811 -248 811 -77 826 c 5,8,9
+ -78 833 -78 833 -83 853 c 5,10,11
+ -139 847 -139 847 -305 832 c 5,12,13
+ -305 850 -305 850 -305 902 c 5,14,15
+ -316 902 -316 902 -351 902 c 5,16,17
+ -351 884 -351 884 -351 829 c 5,18,19
+ -384 826 -384 826 -480 818 c 5,20,21
+ -479 811 -479 811 -474 792 c 5,22,23
+ -443 794 -443 794 -351 802 c 5,24,25
+ -351 784 -351 784 -351 729 c 4,26,27
+ -351 707 -351 707 -335 700 c 4,28,29
+ -320 692 -320 692 -279 692 c 4,30,31
+ -240 692 -240 692 -162 692 c 4,32,33
+ -121 692 -121 692 -108 704 c 260,34,35
+ -95 716 -95 716 -90 746 c 5,36,37
+ -97 747 -97 747 -107 752 c 4,38,39
+ -118 757 -118 757 -124 759 c 5,40,41
+ -127 732 -127 732 -134 729 c 4,42,43
+ -140 726 -140 726 -163 726 c 4,44,45
+ -197 726 -197 726 -266 726 c 4,0,1
+EndSplineSet
+Fore
+SplineSet
+-124 724 m 4,0,1
+ -136 724 -136 724 -139 726 c 4,2,3
+ -142 727 -142 727 -142 733 c 4,4,5
+ -142 765 -142 765 -142 830 c 5,6,7
+ -146 830 -146 830 -158 830 c 5,8,9
+ -158 830 -158 830 -158 830 c 5,10,11
+ -188 830 -188 830 -279 830 c 5,12,13
+ -278 842 -278 842 -278 855 c 4,14,15
+ -277 868 -277 868 -277 881 c 5,16,17
+ -291 881 -291 881 -320 881 c 5,18,19
+ -320 867 -320 867 -320 855 c 4,20,21
+ -320 842 -320 842 -321 830 c 5,22,23
+ -364 830 -364 830 -449 830 c 5,24,25
+ -449 822 -449 822 -449 799 c 5,26,27
+ -417 799 -417 799 -324 799 c 5,28,29
+ -331 763 -331 763 -360 743 c 4,30,31
+ -390 722 -390 722 -470 705 c 5,32,33
+ -463 703 -463 703 -445 700 c 260,34,35
+ -427 697 -427 697 -423 694 c 4,36,37
+ -338 713 -338 713 -313 736 c 4,38,39
+ -289 760 -289 760 -282 799 c 5,40,41
+ -248 799 -248 799 -179 799 c 5,42,43
+ -179 779 -179 779 -179 720 c 4,44,45
+ -179 705 -179 705 -169 701 c 4,46,47
+ -159 696 -159 696 -132 696 c 4,48,49
+ -113 696 -113 696 -76 696 c 4,50,51
+ -50 696 -50 696 -40 713 c 4,52,53
+ -31 730 -31 730 -29 751 c 5,54,55
+ -36 752 -36 752 -45 754 c 4,56,57
+ -55 756 -55 756 -61 758 c 5,58,59
+ -62 740 -62 740 -65 732 c 260,60,61
+ -68 724 -68 724 -78 724 c 4,62,63
+ -94 724 -94 724 -124 724 c 4,0,1
+EndSplineSet
+Ligature2: "'clig' Contextual Ligatures lookup 2 subtable" asciicircum nine
+LCarets2: 1 0
+EndChar
+
+StartChar: ^11
+Encoding: 1114294 -1 382
+Width: 3
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+-51 792 m 1,0,1
+ -93 792 -93 792 -219 792 c 1,2,3
+ -219 805 -219 805 -219 846 c 1,4,5
+ -230 846 -230 846 -262 846 c 1,6,7
+ -262 832 -262 832 -262 792 c 1,8,9
+ -303 792 -303 792 -428 792 c 1,10,11
+ -428 784 -428 784 -428 763 c 1,12,13
+ -386 763 -386 763 -262 763 c 1,14,15
+ -262 738 -262 738 -262 660 c 1,16,17
+ -251 660 -251 660 -219 660 c 1,18,19
+ -219 686 -219 686 -219 763 c 1,20,21
+ -177 763 -177 763 -51 763 c 1,22,23
+ -51 770 -51 770 -51 792 c 1,0,1
+-191 703 m 1,24,25
+ -191 695 -191 695 -191 671 c 1,26,27
+ -162 671 -162 671 -72 671 c 1,28,29
+ -72 679 -72 679 -72 703 c 1,30,31
+ -102 703 -102 703 -191 703 c 1,24,25
+EndSplineSet
+Ligature2: "'clig' Contextual Ligatures lookup 2 subtable" asciicircum one one
+LCarets2: 2 2 0
+EndChar
+
+StartChar: ^10
+Encoding: 1114293 -1 383
+Width: 3
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+-51 777 m 1,0,1
+ -93 777 -93 777 -219 777 c 1,2,3
+ -219 794 -219 794 -219 846 c 1,4,5
+ -230 846 -230 846 -262 846 c 1,6,7
+ -262 829 -262 829 -262 777 c 1,8,9
+ -303 777 -303 777 -428 777 c 1,10,11
+ -428 770 -428 770 -428 750 c 1,12,13
+ -386 750 -386 750 -262 750 c 1,14,15
+ -262 730 -262 730 -262 668 c 1,16,17
+ -251 668 -251 668 -219 668 c 1,18,19
+ -219 689 -219 689 -219 750 c 1,20,21
+ -177 750 -177 750 -51 750 c 1,22,23
+ -51 757 -51 757 -51 777 c 1,0,1
+EndSplineSet
+Ligature2: "'clig' Contextual Ligatures lookup 2 subtable" asciicircum one zero
+LCarets2: 2 0 0
+EndChar
+
+StartChar: ^12
+Encoding: 1114295 -1 384
+Width: 3
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+-51 792 m 1,0,1
+ -93 792 -93 792 -219 792 c 1,2,3
+ -219 805 -219 805 -219 846 c 1,4,5
+ -230 846 -230 846 -262 846 c 1,6,7
+ -262 832 -262 832 -262 792 c 1,8,9
+ -303 792 -303 792 -428 792 c 1,10,11
+ -428 784 -428 784 -428 763 c 1,12,13
+ -386 763 -386 763 -262 763 c 1,14,15
+ -262 738 -262 738 -262 660 c 1,16,17
+ -251 660 -251 660 -219 660 c 1,18,19
+ -219 686 -219 686 -219 763 c 1,20,21
+ -177 763 -177 763 -51 763 c 1,22,23
+ -51 770 -51 770 -51 792 c 1,0,1
+-197 745 m 5,24,25
+ -197 737 -197 737 -197 713 c 5,26,27
+ -168 713 -168 713 -78 713 c 5,28,29
+ -78 721 -78 721 -78 745 c 5,30,31
+ -108 745 -108 745 -197 745 c 5,24,25
+-197 696 m 1,32,33
+ -197 688 -197 688 -197 664 c 1,34,35
+ -168 664 -168 664 -78 664 c 1,36,37
+ -78 672 -78 672 -78 696 c 1,38,39
+ -108 696 -108 696 -197 696 c 1,32,33
+EndSplineSet
+Ligature2: "'clig' Contextual Ligatures lookup 2 subtable" asciicircum one two
+LCarets2: 2 0 0
+EndChar
+
+StartChar: ^13
+Encoding: 1114296 -1 385
+Width: 3
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+-50 784 m 1,0,1
+ -92 784 -92 784 -218 784 c 1,2,3
+ -218 797 -218 797 -218 838 c 1,4,5
+ -229 838 -229 838 -261 838 c 1,6,7
+ -261 824 -261 824 -261 784 c 1,8,9
+ -302 784 -302 784 -427 784 c 1,10,11
+ -427 777 -427 777 -427 756 c 1,12,13
+ -386 756 -386 756 -261 756 c 1,14,15
+ -261 720 -261 720 -262 611 c 1,16,17
+ -251 611 -251 611 -219 611 c 1,18,19
+ -219 647 -219 647 -218 756 c 1,20,21
+ -176 756 -176 756 -50 756 c 1,22,23
+ -50 763 -50 763 -50 784 c 1,0,1
+-192 743 m 1,24,25
+ -192 735 -192 735 -192 711 c 1,26,27
+ -162 711 -162 711 -72 711 c 1,28,29
+ -72 719 -72 719 -72 743 c 1,30,31
+ -102 743 -102 743 -192 743 c 1,24,25
+-192 699 m 1,32,33
+ -192 691 -192 691 -192 667 c 1,34,35
+ -162 667 -162 667 -72 667 c 1,36,37
+ -72 675 -72 675 -72 699 c 1,38,39
+ -102 699 -102 699 -192 699 c 1,32,33
+-192 654 m 1,40,41
+ -192 645 -192 645 -192 621 c 1,42,43
+ -162 621 -162 621 -72 621 c 1,44,45
+ -72 629 -72 629 -72 654 c 1,46,47
+ -102 654 -102 654 -192 654 c 1,40,41
+EndSplineSet
+Ligature2: "'clig' Contextual Ligatures lookup 2 subtable" asciicircum one three
+LCarets2: 2 0 0
+EndChar
+
+StartChar: ^2
+Encoding: 1114285 -1 386
+Width: 3
+Flags: W
+LayerCount: 2
+Back
+SplineSet
+-164 750 m 5,0,1
+ -166 734 -166 734 -168 723 c 4,2,3
+ -170 713 -170 713 -174 695 c 5,4,5
+ -215 695 -215 695 -298 695 c 5,6,7
+ -291 711 -291 711 -286 720 c 4,8,9
+ -282 729 -282 729 -275 750 c 5,10,11
+ -238 750 -238 750 -164 750 c 5,0,1
+-139 695 m 5,12,13
+ -134 717 -134 717 -130 737 c 4,14,15
+ -127 757 -127 757 -124 775 c 5,16,17
+ -133 776 -133 776 -150 777 c 4,18,19
+ -151 776 -151 776 -155 776 c 4,20,21
+ -183 776 -183 776 -267 776 c 5,22,23
+ -263 788 -263 788 -260 795 c 260,24,25
+ -257 802 -257 802 -254 814 c 5,26,27
+ -197 814 -197 814 -83 814 c 5,28,29
+ -83 821 -83 821 -82 841 c 5,30,31
+ -165 841 -165 841 -415 841 c 5,32,33
+ -415 834 -415 834 -416 814 c 5,34,35
+ -384 814 -384 814 -289 814 c 5,36,37
+ -292 802 -292 802 -295 795 c 260,38,39
+ -298 788 -298 788 -302 776 c 5,40,41
+ -332 776 -332 776 -390 776 c 5,42,43
+ -391 769 -391 769 -393 750 c 5,44,45
+ -372 750 -372 750 -310 750 c 5,46,47
+ -317 729 -317 729 -322 720 c 260,48,49
+ -327 711 -327 711 -334 695 c 5,50,51
+ -370 695 -370 695 -442 695 c 5,52,53
+ -442 689 -442 689 -443 669 c 5,54,55
+ -345 669 -345 669 -50 669 c 5,56,57
+ -50 675 -50 675 -49 695 c 5,58,59
+ -72 695 -72 695 -139 695 c 5,12,13
+-452 617 m 5,60,61
+ -452 610 -452 610 -453 590 c 5,62,63
+ -352 590 -352 590 -50 590 c 5,64,65
+ -50 597 -50 597 -49 617 c 5,66,67
+ -150 617 -150 617 -452 617 c 5,60,61
+-338 579 m 5,68,69
+ -361 557 -361 557 -393 536 c 4,70,71
+ -425 514 -425 514 -458 500 c 5,72,73
+ -451 498 -451 498 -436 495 c 4,74,75
+ -422 491 -422 491 -416 489 c 5,76,77
+ -384 505 -384 505 -351 528 c 4,78,79
+ -317 551 -317 551 -292 574 c 5,80,81
+ -308 575 -308 575 -338 579 c 5,68,69
+-216 575 m 5,82,83
+ -184 555 -184 555 -149 531 c 4,84,85
+ -113 507 -113 507 -94 492 c 5,86,87
+ -78 494 -78 494 -47 499 c 5,88,89
+ -67 514 -67 514 -104 538 c 4,90,91
+ -140 561 -140 561 -172 580 c 5,92,93
+ -187 579 -187 579 -216 575 c 5,82,83
+-293 663 m 5,94,95
+ -282 653 -282 653 -270 641 c 260,96,97
+ -258 629 -258 629 -251 621 c 5,98,99
+ -239 623 -239 623 -215 627 c 5,100,101
+ -222 635 -222 635 -234 646 c 4,102,103
+ -247 658 -247 658 -259 668 c 5,104,105
+ -270 666 -270 666 -293 663 c 5,94,95
+EndSplineSet
+Fore
+SplineSet
+-436 824 m 1,0,1
+ -436 815 -436 815 -436 788 c 1,2,3
+ -344 788 -344 788 -66 788 c 1,4,5
+ -66 797 -66 797 -66 824 c 1,6,7
+ -159 824 -159 824 -436 824 c 1,0,1
+-456 719 m 1,8,9
+ -456 710 -456 710 -456 684 c 1,10,11
+ -350 684 -350 684 -32 684 c 1,12,13
+ -32 692 -32 692 -32 719 c 1,14,15
+ -138 719 -138 719 -456 719 c 1,8,9
+EndSplineSet
+Ligature2: "'clig' Contextual Ligatures lookup 2 subtable" asciicircum two
+LCarets2: 1 0
 EndChar
 EndChars
 EndSplineFont
