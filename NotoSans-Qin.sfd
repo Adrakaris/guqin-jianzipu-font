@@ -4,7 +4,7 @@ FullName: Noto Qin Jianzipu
 FamilyName: Noto Qin Jianzipu
 Weight: Book
 Copyright: (c) 2014-2020 Adobe (http://www.adobe.com/). \n(c) Yijun Hu (https://yijun.hu) 
-Version: 2.0.0
+Version: 2.0.1
 ItalicAngle: 0
 UnderlinePosition: -119
 UnderlineWidth: 35
@@ -22,7 +22,7 @@ OS2Version: 2
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1626014431
-ModificationTime: 1642806893
+ModificationTime: 1642887467
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -79,7 +79,7 @@ ShortTable: maxp 16
   0
   0
 EndShort
-LangName: 1033 "+AKkA Yijun Hu (https://yijun.hu) +AAoAqQAA 2014-2020 Adobe (http://www.adobe.com/). " "" "Regular" "NotoSansSC-Regular-Qin" "" "Version 2.0.0" "" "Noto is a trademark of Google Inc." "" "Yijun Hu | Noto: Ryoko NISHIZUKA " "Font based off Noto Sans SC for Guqin Jianzipu ligatures+AAoACgAA-Base font attribution: Dr. Ken Lunde (project architect, glyph set definition & overall production); Masataka HATTORI +Zw0A" "" "http://yijun.hu/" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an +ACIA-AS IS+ACIA BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." "http://scripts.sil.org/OFL"
+LangName: 1033 "+AKkA Yijun Hu (https://yijun.hu) +AAoAqQAA 2014-2020 Adobe (http://www.adobe.com/). " "" "Regular" "NotoSansSC-Regular-Qin" "" "Version 2.0.1" "" "Noto is a trademark of Google Inc." "" "Yijun Hu | Noto: Ryoko NISHIZUKA " "Font based off Noto Sans SC for Guqin Jianzipu ligatures+AAoACgAA-Base font attribution: Dr. Ken Lunde (project architect, glyph set definition & overall production); Masataka HATTORI +Zw0A" "" "http://yijun.hu/" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an +ACIA-AS IS+ACIA BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." "http://scripts.sil.org/OFL"
 GaspTable: 1 65535 2 0
 Encoding: UnicodeFull
 Compacted: 1
@@ -18071,6 +18071,7 @@ SplineSet
  234 1392 234 1392 254 1429 c 1,124,125
  244 1431 244 1431 223 1436 c 0,60,61
 EndSplineSet
+LCarets2: 1 0
 Ligature2: "'liga' Contextual Ligatures lookup 2 subtable" bar f
 EndChar
 
@@ -18110,6 +18111,7 @@ SplineSet
  309 875 309 875 1064 875 c 1,48,49
  1064 885 1064 885 1064 917 c 1,16,17
 EndSplineSet
+Ligature2: "'liga' Contextual Ligatures lookup 2 subtable" bar bar
 EndChar
 
 StartChar: sl1
