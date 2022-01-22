@@ -1,6 +1,8 @@
-# Guqin Jianzipu Notation
+# Guqin Jianzipu Font
 
 #### 古琴减字谱字体
+
+[中文](./readme-zh.md)
 
 This is a font for writing Jianzipu for the Guqin, based off Noto Sans SC. Only qin ligatures and latin glyphs are included in this font. 
 
@@ -48,7 +50,7 @@ Other \\ commands are:
 * **\\fu**: represents 复
 * **\\zhu**: represents 撞
 * **\\yin**: represents 吟
-* **\\nao**: representts 猱
+* **\\nao**: represents 猱
 * **\\tan**: represents 淌
 * **\\tuo**: represents 拖
 * **\\dou**: represents 逗
@@ -58,7 +60,7 @@ Other \\ commands are:
 
 \*For 历, to insert string numbers into it, use the same system as for 上 and 下 - the first number is prefixed with a -z and the second with just a -. `\li/s-7-6` would mean 散音历七六弦.
 
-\*\* The X is a string number, and done using a **-z** nuber. `\sr1-z3` is 散三如一.
+\*\* The X is a string number, and done using a **-z** number. `\sr1-z3` is 散三如一.
 
 ### - (Dash)
 
@@ -124,4 +126,4 @@ Noto Sans SC is the base font, and is licensed under the [SIL Open Font License]
 >  You can use them freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own.
 
 > This isn't legal advice, please consider consulting a lawyer and see the full license for all details. 
- 
+
