@@ -1,0 +1,8 @@
+*.otf
+*.ttf
+*.zip
+
+*.backup
+
+debug.log
+test/
