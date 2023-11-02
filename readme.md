@@ -1,6 +1,19 @@
-# Guqin Jianzipu Font
+# Noto Guqin Jianzipu 
 
-#### 古琴减字谱字体
+#### 思源琴黑
+
+
+-----
+
+【新版本】这是减字谱字体第三版本，再次重新建起。主要变化是：字形被改瘦了点，基字没有那么扁，并且修改了一些字形，以更好识别。下一个 Release 将会是思源琴黑V3……正好也需要编辑一下说明。
+
+【New version】This is Noto Qin Jianzipu version 3, rebuilt from
+the ground up. The main change is that characters have been made
+slightly thinner, the body blocks squarer and less flat, to
+improve readability. The next release will be Noto Qin Jianzipu
+version 3.
+
+-----
 
 [中文](./readme-zh.md)
 
