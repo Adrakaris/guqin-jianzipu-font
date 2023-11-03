@@ -119,7 +119,7 @@ Hui position commands are written by combining a "top fraction" and a "bottom fr
 
 #### Bottom fraction (/)
 
-Type `/1` to `/13` for the Hui position at the bottom. Type `/ban` for 半. Fractions `/10` to `/13` are not designed to be used in combination. 
+Type `/1` to `/13` for the Hui position at the bottom. Type `/b` for 半. Fractions `/10` to `/13` are not designed to be used in combination. 
 
 #### Top fraction (^)
 
