@@ -1,136 +1,96 @@
-# Noto Guqin Jianzipu 
+# 思源琴黑 Noto Qin Jianzipu
 
-#### 思源琴黑
+#### 古琴减字谱字体
 
+- [前言 Introduction](#前言-introduction)
+- [说明 Overview of Use](#说明-overview-of-use)
+- [字码 Notation](#说明-overview-of-use)
+- [Attribution](#attributions)
 
------
+## 前言 Introduction
 
-【新版本】这是减字谱字体第三版本，再次重新建起。主要变化是：字形被改瘦了点，基字没有那么扁，并且修改了一些字形，以更好识别。下一个 Release 将会是思源琴黑V3……正好也需要编辑一下说明。
+本字体是一个基于思源黑体的减字谱字体。本字体只包括拉丁字母，以及减字谱字符，以免字体过大。
 
-【New version】This is Noto Qin Jianzipu version 3, rebuilt from
-the ground up. The main change is that characters have been made
-slightly thinner, the body blocks squarer and less flat, to
-improve readability. The next release will be Noto Qin Jianzipu
-version 3.
+**减字谱是用合字符（Ligatures）而写**，若您所用的软件没有合字功能，或者没开启合字功能，则不会显示减字谱。
 
------
+本字体基本上只有下述的字符，这并非是所有所存在的减字谱，**所以如果缺一个，请发个Issue**。
 
-[中文](./readme-zh.md)
+This is a sans-serif font for writing [Jianzipu](https://en.wikipedia.org/wiki/Guqin_notation), based off Noto Sans SC. This font only includes latin glyphs and qin font ligatures. 
 
-This is a font for writing Jianzipu for the Guqin, based off Noto Sans SC. Only qin ligatures and latin glyphs are included in this font. 
+**Ligatures are used to type jianzipu**, if your software/word processor does not support ligatures or does not have them enabled, this will not work.
 
-We use ligatures to be able to type Jianzipu notation - these will be referred to as commands.
+Generally only the Jianzipu characters detailed below are included, **please make an issue if you need any more characters**, I recognise this is not a complete set.
 
-Only the ones included are shown.
+## 说明 Overview of Use
 
-## Overview of Use
+每一字部都起于一个命令字符，如斜后杠 `\`、斜杠 `/`、联号 `-` 等等，加所需要的字码。
 
-First use a \ command to write a body block, then combine any number of /^ commands for the modifier blocks. **Do not write spaces.** Once the *full thing* has been written, *then* put a (halfwidth) space.
+一个减字谱字符可以由多字部拼起，比如「大指7徽6分勾7弦」所需要的字部是：勾7弦、大指、7徽、6分四个，字码是：`\7g/da/7^6`。先输下面的「底部」字部（勾7弦），然后再加后缀，中间不要加空格。后缀可以以任何顺序加上。
 
-`\7g/da/7^6` will generate a block meaning 大指按7徽6分，勾7弦.
+若要输撮，可以将两个减字谱用 `||` 并在一起，双方不要加空格，否则字距会出错。
 
-For any | (combining) blocks, **do not put a space** between that, the first block, and the second block.
+Every character component starts with a command character, such as backslash, forward slash, hyphen, etc. followed by the required character  code.
 
-`\4/da/10||\7/s` will generate a 撮 block with 4弦大指10徽 and 散音7弦.
+One jianzipu character is made up of many components, so a 「大指7徽6分勾7弦」 is split into the right hand fingering and position, the left hand fingering, the hui number, and the hui fraction: `\7g/da/7^6`. The base character block is written first and all modifiers are added on, with no spaces.
 
-Modifier blocks can be written in any order, they are kerned such that they will be displayed appropriately. 
+For combining characters such as 撮, use two vertical bars and make sure to have no spaces between the characters being combined, otherwise the spacing will be wrong.
 
-## Notation
+## 字码 Notation
 
-### \\ (Backslash)
+- [Base blocks](#斜后杠-backslash)
+- [Middle blocks](#联号-dash)
+- [Modifier Symbols](#斜杠-forwardslash-与--补字号-caret)
+- [Combining Characters](#合号-combining-characters)
 
-Backslash commands refers to "body" blocks. Typing \\1 will render 一, up to \\7 for 七. These numbers can then be suffixed with letters, which refer to the right hand technique for that block. The examples shown use the 1st string, though this can be replaced with any number up to 7.
+### \\ 斜后杠 Backslash
 
-* **\\1g**: g stands for 勾 (**g**ou)
-* **\\1t**: t stands for 挑 (**t**iao)
-* **\\1m**: m stands for 抹 (**m**o)
-* **\\1u**: u stands for 托 (t**u**o)
-* **\\1d**: d stands for 打 (**d**a)
-* **\\1b**: b stands for 擘 (**b**o)
-* **\\1i**: i stands for 剔 (t**i**)
-* **\\1mt**: mt stands for 抹挑 (**m**o **t**iao)
-* **\\1mg**: mg stands for 抹勾 (**m**o **g**ou)
-* **\\1gi**: gi stands for 勾剔 (**g**ou t**i**)
-* **\\1z**: for 摘
+斜后杠指「底部」，指右手指法与所弹之弦的部分。
 
-Other \\ commands are:
+Backslash commands refer to body blocks, those which describe the right hand technique, along with string number.
 
-* **\\fan** (起) and **\\fanz** (止): indicates the beginning and end of 泛音 respectively
-* **\\li**: represents 历*
-* **\\tao**: represents 搯
-* **\\dai**: represents 带起
-* **\\jin**: represents 进
-* **\\tui**: represents 退
-* **\\fu**: represents 复
-* **\\zhu**: represents 撞
-* **\\yin**: represents 吟
-* **\\nao**: represents 猱
-* **\\tan**: represents 淌
-* **\\tuo**: represents 拖
-* **\\dou**: represents 逗
-* **\\sr1**: represents 散X如一**
-* **\\|f**: represents 反撮 - solitary instead of combinator character and smaller
-* **\\tc3s**: represents that weird 搯撮三声, should you need it.
+![backslash commands](images/base-blocks.png)
 
-\*For 历, to insert string numbers into it, use the same system as for 上 and 下 - the first number is prefixed with a -z and the second with just a -. `\li/s-7-6` would mean 散音历七六弦.
+「`#`」代表一个 1 到 7 的数字。
 
-\*\* The X is a string number, and done using a **-z** number. `\sr1-z3` is 散三如一.
+还有一些左手、特殊字符用斜后杠写：
 
-### - (Dash)
+There are also several special/left hand technique symbols written with backslash:
 
-Dash commands are used to represent slides. These are always typed the following way:
+![backslash separate characters](images/more-bases.png)
 
-First, type either **-s** for 上 or **-x** for 下. 
+历、散#如一如何加数字见下方。
 
-*If you need a whole number hui* type a dash (**-**) followed by that number. You are done.
+### `-` 联号 Dash
 
-*If you need a fractional hui* first for the whole type **-z** (中) followed by that number. Then for the fraction type a dash (**-**) followed by that fraction.
+联号指上下滑、中下小数字。 Dashes represent the middle small numbers used for movement or 历.
 
-`-s-7` means 上七徽. `-x-z10-8` means 下十徽八分.
+![dash characters](images/middle.png)
 
-*Note:* **-b** represents 半, **-w** represents 外, and both only appear in the bottom position. However, -5 is also valid for 半 and will display the character for 5 instead. 外 should not be used with any other modifier.
+外 部不能与其他数字一块用。
 
-The middle numbers range from 1 to 13, the bottom numbers range from 1 to 9.
+### `/` 斜杠 Forwardslash 与 `^` 补字号 Caret
 
-### / (Forwardslash) and ^ (caret)
+用于左手指法、徽位，以及散、就、泛、绰、注等标志。
 
-Forwardslash commands refer to "modifier" blocks. These are the particles that go on top of the body such as 艹, and hui markers. *Finger indicators* and *Hui indicators* can be combined in any order. 
+Used in left hand fingering and position, as well as general techniques including 散、就、泛、绰、注.
 
-Basic / commands are:
+![top characters](images/modifier.png)
 
-* **/s**: represents 散音
-* **/fa**: the single 泛音 indicator
-* **/wai**: represents 外, a hui position outside of the main 13
-* **/jiu**: represents 就
-* **/ch**: represents 绰 - *note:* this is displayed above rather than below the hui position - this is to ensure ligature compatibility
-* **/zhu**: represents 注 - *note:* will overlap with previous block if no spaces are between blocks
+### `||` 合号 Combining Characters
 
+撮（及反撮）是将两个字符合在一起。以下的是要放在两个字符之间。
 
-Finger / commands are:
+撮 combines two jianzipu blocks, and goes in the space between them.
 
-* **/mi**: ring finger, 无名指
-* **/zh**: middle finger, 中指
-* **/sh**: index finger, 食指
-* **/da**: thumb, 大拇指
+![combining characters](images/combining.png)
 
-Hui position commands are written by combining a "top fraction" and a "bottom fraction". One of these can be left out (my convention is the "top fraction") to have a whole number.
+## Opening and Editing
 
-`/10` will get 10徽, and `/10^8` will get 10徽8分. Both the top fraction and the bottom fraction range from 1-13, but `/10` to `/13` should not be used as actual fractions. 
+The otf can be downloaded from releases when available.
 
-#### Bottom fraction (/)
+This font is made using fontlab. You will require fontlab to open the source vfc file. Alternatively you can open the font file itself using another program.
 
-Type `/1` to `/13` for the Hui position at the bottom. Type `/b` for 半. Fractions `/10` to `/13` are not designed to be used in combination. 
-
-#### Top fraction (^)
-
-Type `^1` to `^13` for the hui position at the top.
-
-### | (pipe)
-
-Pipe commands are "combinator" commands. They are used for writing notation which combines two blocks, like 撮 notation. They go in the middle of two blocks to "combine" them. Both "arms" of the combinator encompass two fullwide spaces. 
-
-* **||**: represents 撮, for optimal spacing do not put a space between the two encompassed blocks
-* **|f**: represents 反撮.
+This font does not come with any Han character glyphs so it is advised to also download Noto Sans SC separately if you want to add to it.
 
 
 ## Attributions
@@ -141,3 +101,5 @@ Noto Sans SC is the base font, and is licensed under the [SIL Open Font License]
 
 > This isn't legal advice, please consider consulting a lawyer and see the full license for all details. 
 
+
+The Jianzipu decomposition method is entirely my own. Please attribute me if you are going to use my method as a basis of your work.
