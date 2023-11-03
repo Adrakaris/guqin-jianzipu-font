@@ -51,6 +51,7 @@ Backslash commands refers to "body" blocks. Typing \\1 will render 一, up to \\
 * **\\1mt**: mt stands for 抹挑 (**m**o **t**iao)
 * **\\1mg**: mg stands for 抹勾 (**m**o **g**ou)
 * **\\1gi**: gi stands for 勾剔 (**g**ou t**i**)
+* **\\1z**: for 摘
 
 Other \\ commands are:
 
